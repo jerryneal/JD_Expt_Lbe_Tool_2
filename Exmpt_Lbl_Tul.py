@@ -2,8 +2,7 @@
     Title : Exmpt_Lbl_Tul
     Version: 1.0
     Author: Neal Bazirake
-    Description: Using the MVC controller design pattern in software development. This works as the 
-                 Controller of the entire program.
+    Description: Application Framework 
 '''
 import os
 from tkinter import *
