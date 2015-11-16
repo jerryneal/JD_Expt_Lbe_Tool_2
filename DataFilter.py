@@ -26,7 +26,7 @@ class DataFilter():
       '''
        #Getting historical data
        '''
-       os.chdir("C:/Users/nb20805/Desktop/Testbase")
+       os.chdir("C:/Users/nbxxxx/Desktop/Testbase")
        wb = load_workbook('Historical_data.xlsx', use_iterators = True)
        previous_quarter_adds,previous_quarter_close =[],[]
        for i in sheets:
@@ -188,7 +188,7 @@ class DataFilter():
             #print(rw1)
             ws.cell("A"+str(row_num)).value = rw1[0]
             ws.cell("B"+str(row_num)).value = rw1[1]
-            row_num +=1
+            row_num = row_num + 1
        row_num = 4     
        for i in temp_remove_column_engines:
             results_04 = cursor.execute("""SELECT engine_serial_no, esn_entered_date , date_completed
