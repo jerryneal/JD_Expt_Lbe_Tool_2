@@ -5,10 +5,9 @@
 	Description: This file sets up the executable necessary to run the file as an icon on your desktop
 '''
 
-
 from cx_Freeze import setup, Executable
 from distutils.core import setup
-import py2app
+import py2exe #use py2app for Mac OS
 
 includes = ["re"]
 
